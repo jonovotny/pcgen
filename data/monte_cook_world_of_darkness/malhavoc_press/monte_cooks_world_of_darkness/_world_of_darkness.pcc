@@ -5,18 +5,21 @@ TYPE:Monte Cook.Core
 #SHOWINMENU:YES
 BOOKTYPE:Custom
 SETTING:Modern
-RANK:1
+
 SOURCELONG:Monte Cook's World of Darkness d20
 SOURCESHORT:mc_wod
 SOURCEDATE:2009-01
+RANK:200901
 ISOGL:YES
 COPYRIGHT:Monte Cook
 
 INFOTEXT:Core Rule Book
 
 ALIGNMENT:xxx__align.lst
+DATACONTROL:mc__datacontrols.lst
 SAVE:xxx__saves.lst
 STAT:xxx__stats.lst
+RACE:*/_universal/races.lst
 
 ABILITY:mc_wod_abilities.lst
 ABILITYCATEGORY:mc_wod_abilitycategories.lst
@@ -40,7 +43,7 @@ HIDETYPE:FEAT|Supernatural|Extraordinary|SpellLike
 HIDETYPE:FEAT|AttackOption|ModifyAC
 #HIDETYPE:FEAT|
 
-INFOTEXT:Supports 6.4.1
+INFOTEXT:Supports 6.07.07
 # ENTRY DATE: 2015-01 (Unknown)
 # LST MONKEY: Bahamut
 # RELEASE REVIEW #

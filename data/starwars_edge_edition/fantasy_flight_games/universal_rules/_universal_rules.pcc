@@ -1,13 +1,14 @@
 # CVS $Revision$ $Author$ -- Thu Jul 10 13:59:32 2014 -- reformated by prettylst.pl v1.51 (build 24365)
 CAMPAIGN:Fantasy Flight Starwars Universal Rules
 KEY:Fantasy Flight Starwars Universal Rules
-RANK:0
+
 STATUS:ALPHA
 BOOKTYPE:Core Rules
 #GAMEMODE:Starwars_Edge
 SOURCELONG:Fantasy Flight Starwars Universal Rules
 SOURCESHORT:UR
-#SOURCEDATE:2003-07
+SOURCEDATE:2003-07
+RANK:200307
 PUBNAMELONG:Fantasy Flight Games
 PUBNAMESHORT:FFG
 PUBNAMEWEB:http://www.fantasyflightgames.com
@@ -19,8 +20,10 @@ TYPE:Fantasy Flight Games.Core
 
 
 ALIGNMENT:xxx__align.lst
+DATACONTROL:ur__datacontrols.lst
 SAVE:xxx__saves.lst
 STAT:xxx__stats.lst
+RACE:*/_universal/races.lst
 
 ABILITY:ur_abilities.lst
 ABILITYCATEGORY:ur_abilitycategories.lst
@@ -43,7 +46,7 @@ SKILL:ur_skills.lst
 #TEMPLATE:ee_templates.lst
 
 
-INFOTEXT:Supports 6.4.1
+INFOTEXT:Supports 6.06.07
 # ENTRY DATE: 2015-01 (Unknown)
 # LST MONKEY: Bahamut
 # RELEASE REVIEW #

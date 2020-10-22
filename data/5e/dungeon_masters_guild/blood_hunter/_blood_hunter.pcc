@@ -1,6 +1,6 @@
 CAMPAIGN:Blood Hunter Class
 KEY:5e - CR - Blood Hunter Class
-RANK:7
+
 BOOKTYPE:Supplement
 GAMEMODE:5e
 STATUS:BETA
@@ -8,6 +8,7 @@ TYPE:Critical Role.Supplement
 SOURCELONG:Blood Hunter Class
 SOURCESHORT:WH
 SOURCEDATE:2015-10
+RANK:201510
 PUBNAMELONG:Critical Role
 PUBNAMESHORT:CR
 PUBNAMEWEB:http://www.criticalrole.com
@@ -20,7 +21,7 @@ PRECAMPAIGN:1,INCLUDESBOOKTYPE=Core Rules
 # LOGO should be logo_pub.file
 #LOGO:../../../../_artwork/logo_wotc.png
 
-INFOTEXT:D&D 5e Critical Role's Blood Hunter Class version 1.7
+INFOTEXT:D&D 5e Critical Role's Blood Hunter Class version 1.7 -- updated to 2.0
 
 ABILITY:bh_abilities.lst
 ABILITYCATEGORY:bh_abilitycategories.lst

@@ -1,7 +1,7 @@
 # CVS $Revision$ $Author$ -- Thu Jul 10 13:59:32 2014 -- reformated by prettylst.pl v1.51 (build 24365)
 CAMPAIGN:Player's Guide (Set 1)
 KEY:Dragon Age - Player's Guide (Set 1)
-RANK:0
+
 !PRECAMPAIGN:1,BOOKTYPE=Core Rules,[Dragon Age - Player's Guide (Set 1)]
 BOOKTYPE:Core Rules
 GAMEMODE:DragonAge
@@ -10,6 +10,7 @@ SOURCELONG:Player's Guide
 SOURCESHORT:PG
 SOURCEWEB:http://www.greenronin.com
 SOURCEDATE:2009-01
+RANK:200901
 PUBNAMELONG:Green Ronin Publishing
 PUBNAMESHORT:GRP
 PUBNAMEWEB:http://www.greenronin.com
@@ -23,9 +24,10 @@ INFOTEXT:This loads the Player's Guide materials from Set 1 - it's part of the o
 OPTION:pcgen.options.optionSourcesAllowMultiLine=true
 
 ALIGNMENT:xxx__align.lst
+DATACONTROL:pg__datacontrols.lst
 SAVE:xxx__saves.lst
 STAT:xxx__stats.lst
-
+RACE:*/_universal/races.lst
 
 ABILITY:pg_abilities.lst
 ABILITYCATEGORY:pg_abilitycategories.lst
@@ -55,7 +57,7 @@ TEMPLATE:pg_templates.lst
 
 
 
-INFOTEXT:Supports 6.4.1
+INFOTEXT:Supports 6.07.07
 # ENTRY DATE: 2015-01 (Unknown)
 # LST MONKEY: Bahamut
 # RELEASE REVIEW #

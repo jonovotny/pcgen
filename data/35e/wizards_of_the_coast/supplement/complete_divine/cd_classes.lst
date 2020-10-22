@@ -565,6 +565,8 @@ CLASS:Rainbow Servant	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/3
 CLASS:Rainbow Servant	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/2+2
 CLASS:Rainbow Servant	PRETEXT:Alignment: Any nonevil and nonchaotic. Skill: Knowledge (arcana) 4 ranks. Spells: Able to cast 3rd-level arcane spells. Special: Must find the hidden jungle temples of the couatls.	PRESPELLTYPE:1,Arcane=3	!PREALIGN:LE,NE,CE,CN,CG	PRESKILL:1,Knowledge (Arcana)=4
 CLASS:Rainbow Servant	STARTSKILLPTS:2	CSKILL:Concentration|TYPE=Craft|Diplomacy|Knowledge (arcana)|Knowledge (The Planes)|TYPE=Profession|Sense Motive|Spellcraft
+CLASS:Rainbow Servant	FACT:SpellType|Arcane	MEMORIZE:NO
+CLASS:Rainbow Servant	BONUS:CASTERLEVEL|Rainbow Servant|RainbowServantLVL
 2	ADD:SPELLCASTER|Arcane
 3	ADD:SPELLCASTER|Arcane
 5	ADD:SPELLCASTER|Arcane
@@ -582,6 +584,10 @@ CLASS:Rainbow Servant	STARTSKILLPTS:2	CSKILL:Concentration|TYPE=Craft|Diplomacy|
 7	ABILITY:Rainbow Servant Class Feature|AUTOMATIC|Rainbow Servant ~ Detect Chaos
 10	ABILITY:Rainbow Servant Class Feature|AUTOMATIC|Rainbow Servant ~ Cleric Spell Access
 10	ABILITY:Rainbow Servant Class Feature|AUTOMATIC|Rainbow Servant ~ Detect Thoughts
+###Block
+1	DOMAIN:Good	BONUS:DOMAIN|NUMBER|1
+4	DOMAIN:Air	BONUS:DOMAIN|NUMBER|1
+7	DOMAIN:Law	BONUS:DOMAIN|NUMBER|1
 
 # Sacred Exorcist
 CLASS:Sacred Exorcist	MAXLEVEL:10
@@ -644,16 +650,16 @@ CLASS:Seeker of the Misty Isle	BONUS:VAR|ClassBABModerate|classlevel("APPLIEDAS=
 CLASS:Seeker of the Misty Isle	BONUS:SAVE|BASE.Fortitude|classlevel("APPLIEDAS=NONEPIC")/2+2
 CLASS:Seeker of the Misty Isle	BONUS:SAVE|BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2
 CLASS:Seeker of the Misty Isle	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3
-CLASS:Seeker of the Misty Isle	PRETEXT:Race: Elf or half-elf. Skills: Knowledge (religion) 4 ranks, Survival 8 ranks. Spells: Able to cast 2nd-level divine spells. Special: Must be inducted into the order by another member.	PRESPELLTYPE:1,Divine=2	PRERACE:1,RACESUBTYPE=Elf,Half-Elf	PRESKILL:2,Knowledge (Religion)=8,Survival=8
+CLASS:Seeker of the Misty Isle	PRETEXT:Race: Elf or half-elf. Skills: Knowledge (religion) 4 ranks, Survival 8 ranks. Spells: Able to cast 2nd-level divine spells. Special: Must be inducted into the order by another member.	PRESPELLTYPE:1,Divine=2	PRERACE:1,RACESUBTYPE=Elf,Half-Elf	PRESKILL:2,Knowledge (Religion)=4,Survival=8
 CLASS:Seeker of the Misty Isle	STARTSKILLPTS:6	CSKILL:Balance|Climb|Concentration|TYPE=Craft|Diplomacy|Hide|Jump|Knowledge (Geography)|Knowledge (Religion)|Listen|Move Silently|Ride|Speak Language|Spellcraft|Spot|Survival
-1	ADD:SPELLCASTER|ANY
-2	ADD:SPELLCASTER|ANY
-3	ADD:SPELLCASTER|ANY
-4	ADD:SPELLCASTER|ANY
-6	ADD:SPELLCASTER|ANY
-7	ADD:SPELLCASTER|ANY
-8	ADD:SPELLCASTER|ANY
-9	ADD:SPELLCASTER|ANY
+1	ADD:SPELLCASTER|Divine
+2	ADD:SPELLCASTER|Divine
+3	ADD:SPELLCASTER|Divine
+4	ADD:SPELLCASTER|Divine
+6	ADD:SPELLCASTER|Divine
+7	ADD:SPELLCASTER|Divine
+8	ADD:SPELLCASTER|Divine
+9	ADD:SPELLCASTER|Divine
 ###Block
 11	PREPCLEVEL:MIN=20
 ###Block	
